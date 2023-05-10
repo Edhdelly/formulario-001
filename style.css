@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(144, 36, 36, 0.8);
+    color: white;
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    border: 3px solid whitesmoke;
+    height: 100vh;
+}
+
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    margin: auto;
+    border: 3px solid whitesmoke;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"] {
+    width: 270px;
+    height: 30px;
+    margin: 2px;
+}
+
+input[type="date"] {
+    text-align: center;
+}
+
+.sexo {
+    margin-top: -20px;
+    margin-bottom: 4px;
+}
+
+input[type="submit"] {
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+}
